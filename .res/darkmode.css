@@ -1,0 +1,21 @@
+body{
+    background-color: #212121;
+    color: #ececec;
+}
+
+
+
+.r{ color:crimson; }
+.b{ color:cornflowerblue }
+
+s{
+    text-decoration-color: rgba(255, 0, 0, 0.5);
+    text-decoration-thickness: 3px;
+}
+.sb{ 
+    color:cornflowerblue;
+
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 0, 0, 0.5);
+    text-decoration-thickness: 3px;
+}
