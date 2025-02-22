@@ -19,3 +19,13 @@ s{
     text-decoration-color: rgba(255, 0, 0, 0.5);
     text-decoration-thickness: 3px;
 }
+
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover {
+    filter: opacity(0.3);
+}

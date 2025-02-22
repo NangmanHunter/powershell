@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="res/darkmode.css">
-    <link rel="stylesheet" href="res/monospace-16px.css">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../.res/darkmode.css">
+    <link rel="stylesheet" href="../.res/monospace-16px.css">
+
+
 </head>
 <body>
     
@@ -23,7 +24,7 @@
 <script>
     const md = window.markdownit(); 
     let m; 
-    fetch('powershell-03.alias.md')
+    fetch('02.function.md')
     .then(response => response.text()) 
     .then(d => {
         m = d;  
