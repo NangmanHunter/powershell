@@ -7,8 +7,10 @@
 
 
 # 
+<pre>
 - TCP        ↔UDP
 - slow       ↔fast
 - web        ↔audio
 - Visual Data↔Auditory Data
 - general    ↔specific
+</pre>
