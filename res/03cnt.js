@@ -1,10 +1,8 @@
 let script = document.createElement('script');
-script.src = "https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js";
+script.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
 document.getElementsByTagName("body")[0].append(script);
 
-
 script.onload = function() {
-    const md = window.markdownit(); 
     let m; 
     
     let url = window.location.href;
@@ -15,7 +13,12 @@ script.onload = function() {
     .then(response => response.text()) 
     .then(d => {
         m = d;  
-        m = md.render(m); 
+        m = marked.parse(m);
         document.getElementById('cnt').innerHTML = m;
     });
 }
+
+
+
+
+
